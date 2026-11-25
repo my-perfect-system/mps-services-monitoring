@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # -----------------------------------------------------------------------------
-# Initial setup for the mps-monitoring stack.
+# Initial setup for the mps-services-monitoring stack.
 #
 # What this does:
 #   1. Creates the bind-mounted data directories if they don't exist.

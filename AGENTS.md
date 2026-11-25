@@ -1,4 +1,4 @@
-# AGENTS.md — mps-monitoring
+# AGENTS.md — mps-services-monitoring
 
 Docker Compose monitoring stack for **logs + metrics** — Prometheus, Loki,
 Grafana — plus an **optional Wazuh SIEM** (manager, indexer, dashboard) behind
@@ -14,7 +14,7 @@ a compose profile. Deployed by `odem.services.monitoring`.
 | Wazuh manager / indexer / dashboard | `${WAZUH_VERSION}` (`5.0.0-beta5`) | compose profile `wazuh`, opt-in |
 
 Core services persist to bind-mounted `services/*/data/`. **Wazuh uses Docker
-named volumes** (`mps-monitoring_wazuh_*`).
+named volumes** (`mps-services-monitoring_wazuh_*`).
 
 ## Layout
 

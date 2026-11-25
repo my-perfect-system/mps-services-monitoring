@@ -8,7 +8,7 @@ global:
   scrape_timeout: 10s
   evaluation_interval: 15s
   external_labels:
-    monitor: "mps-monitoring"
+    monitor: "mps-services-monitoring"
 
 scrape_configs:
   - job_name: prometheus

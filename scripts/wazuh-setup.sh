@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # -----------------------------------------------------------------------------
-# Initial setup for the Wazuh SIEM service of the mps-monitoring stack.
+# Initial setup for the Wazuh SIEM service of the mps-services-monitoring stack.
 #
 # What this does (idempotent):
 #   1. Generates the deployment TLS certificates -- ONLY when no root CA
